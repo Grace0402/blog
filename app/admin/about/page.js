@@ -5,7 +5,7 @@ import AdminLayout from '../../../components/AdminLayout';
 
 export default function AboutAdmin() {
   var router = useRouter();
-  var _ = useState({ avatar: '', name: 'MirrorMoon', bio: 'Where Words Embrace the Way', github: '', email: '', wechat: '', qq: '', intro: '', hero_bg: '' }), f = _[0], sf = _[1];
+  var _ = useState({ avatar: '', name: 'My Blog', bio: '', github: '', email: '', wechat: '', qq: '', intro: '', hero_bg: '' }), f = _[0], sf = _[1];
   var _2 = useState(false), loading = _2[0], setLoading = _2[1];
   var _3 = useState(false), saving = _3[0], setSaving = _3[1];
   var _4 = useState(''), msg = _4[0], setMsg = _4[1];
@@ -23,8 +23,8 @@ export default function AboutAdmin() {
       if (d.settings && d.settings.id) {
         sf({
           avatar: d.settings.avatar || '',
-          name: d.settings.name || 'MirrorMoon',
-          bio: d.settings.bio || 'Where Words Embrace the Way',
+          name: d.settings.name || 'My Blog',
+          bio: d.settings.bio || '',
           github: d.settings.github || '',
           email: d.settings.email || '',
           wechat: d.settings.wechat || '',

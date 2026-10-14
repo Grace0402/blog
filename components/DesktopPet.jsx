@@ -16,9 +16,9 @@ var DRAG_THRESHOLD = 5;
 var DOUBLE_CLICK_MS = 350;
 var PET_SIZE = 80;
 
-var CAT_AWAKE = '/images/MirrorMoon-DesktopPet-Cat.png';
-var CAT_SLEEPING = '/images/MirrorMoon-DesktopPet-Cat-Sleeping.png';
-var CATGIRL = '/images/MirrorMoon-DesktopPet-CatGirl.png';
+var CAT_AWAKE = '/images/DesktopPet-Cat.png';
+var CAT_SLEEPING = '/images/DesktopPet-Cat-Sleeping.png';
+var CATGIRL = '/images/DesktopPet-CatGirl.png';
 
 export default function DesktopPet() {
   var [isSleeping, setIsSleeping] = useState(true);

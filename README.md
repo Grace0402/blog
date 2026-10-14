@@ -1,4 +1,4 @@
-# MirrorMoon's Blog
+# My Blog
 
 一个基于 **Next.js 14** 的开源个人博客模板。极简卡片风 + 暖米色调，内置樱花飘落、桌面宠物等氛围特效，零数据库依赖，克隆下来 `npm install` 即可运行。
 

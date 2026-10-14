@@ -12,8 +12,8 @@ import ClickParticles from '../components/ClickParticles';
 import DesktopPet from '../components/DesktopPet';
 
 export var metadata = {
-  title: "MirrorMoon's Blog",
-  description: 'Where Words Embrace the Way',
+  title: "My Blog",
+  description: 'A personal blog built with Next.js',
   icons: {
     icon: '/favicon.svg',
   },

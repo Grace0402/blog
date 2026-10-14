@@ -5,7 +5,7 @@ import remarkGfm from 'remark-gfm';
 
 export default function AboutPage() {
   var _t = useState(''), toast = _t[0], setToast = _t[1];
-  var _ = useState({ avatar: '', name: 'MirrorMoon', bio: 'Where Words Embrace the Way', github: '', email: '', wechat: '', qq: '', intro: '' }), f = _[0], sf = _[1];
+  var _ = useState({ avatar: '', name: 'My Blog', bio: '', github: '', email: '', wechat: '', qq: '', intro: '' }), f = _[0], sf = _[1];
   var _2 = useState(true), loading = _2[0], setLoading = _2[1];
 
   function copyToClipboard(text, label) {
@@ -29,7 +29,7 @@ export default function AboutPage() {
       if (d.settings) {
         sf({
           avatar: d.settings.avatar || '',
-          name: d.settings.name || 'MirrorMoon',
+          name: d.settings.name || 'My Blog',
           bio: d.settings.bio || '',
           github: d.settings.github || '',
           email: d.settings.email || '',

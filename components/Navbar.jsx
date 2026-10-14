@@ -23,7 +23,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <span className="text-xl font-black text-stone-800 dark:text-stone-100">
-            MirrorMoon<span className="text-amber-500">&apos;s</span> Blog
+            My Blog
           </span>
         </Link>
 

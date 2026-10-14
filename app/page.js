@@ -53,9 +53,9 @@ export default async function HomePage({ searchParams }) {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-indigo-500/5 rounded-full blur-3xl" />
         <div className="relative z-10 text-center px-4 max-w-2xl mx-auto mt-8">
           <h1 className="text-5xl md:text-7xl font-black text-white mb-4 drop-shadow-lg" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>
-            MirrorMoon<span className="text-amber-500">&apos;</span>s Blog
+            My Blog
           </h1>
-          <p className="text-lg md:text-xl text-white/80 drop-shadow">Where Words Embrace the Way</p>
+          <p className="text-lg md:text-xl text-white/80 drop-shadow">A personal blog</p>
         </div>
         <div className="relative z-[100] w-full max-w-md px-4 mx-auto mb-8">
           <SearchBar />

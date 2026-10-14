@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 export default function AuthorCard() {
   var _t = useState(''), toast = _t[0], setToast = _t[1];
-  var _ = useState({ avatar: '', name: 'MirrorMoon', bio: 'Where Words Embrace the Way', github: '', email: '', wechat: '', qq: '' }), f = _[0], sf = _[1];
+  var _ = useState({ avatar: '', name: 'My Blog', bio: '', github: '', email: '', wechat: '', qq: '' }), f = _[0], sf = _[1];
 
   function copyToClipboard(text, label) {
     navigator.clipboard.writeText(text).then(function() {
@@ -22,8 +22,8 @@ export default function AuthorCard() {
         if (d.settings) {
           sf({
             avatar: d.settings.avatar || '',
-            name: d.settings.name || 'MirrorMoon',
-            bio: d.settings.bio || 'Where Words Embrace the Way',
+            name: d.settings.name || 'My Blog',
+            bio: d.settings.bio || '',
             github: d.settings.github || '',
             email: d.settings.email || '',
             wechat: d.settings.wechat || '',

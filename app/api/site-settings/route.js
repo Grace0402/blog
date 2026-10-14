@@ -6,7 +6,7 @@ var db = require('../../../lib/db');
 export async function GET() {
   try {
     var settings = db.findBy('settings', 'id', 'site') || {
-      avatar: '', name: 'MirrorMoon', bio: 'Where Words Embrace the Way',
+      avatar: '', name: 'My Blog', bio: '',
       github: '', email: '', intro: ''
     };
     return NextResponse.json({ settings: settings });
