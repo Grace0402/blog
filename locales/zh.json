@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "首页",
+    "projects": "开源项目",
+    "timeline": "归档",
+    "tags": "标签",
+    "friends": "友链",
+    "chatter": "留言墙",
+    "about": "关于我"
+  },
+  "home": {
+    "search": "搜索文章...",
+    "weather": "天气",
+    "music": "音乐",
+    "stats": "站点统计",
+    "tags": "标签云",
+    "tagSearch": "搜索标签...",
+    "latest": "最新文章",
+    "calendar": "日历",
+    "danmaku": "弹幕留言",
+    "totalPosts": "共",
+    "totalDays": "持续",
+    "days": "天",
+    "articles": "篇"
+  },
+  "post": {
+    "prev": "上一篇",
+    "next": "下一篇",
+    "comments": "评论",
+    "like": "点赞",
+    "liked": "已点赞",
+    "comment_placeholder": "写下你的评论...",
+    "name": "昵称",
+    "email": "邮箱",
+    "submit": "提交"
+  },
+  "admin": {
+    "login": "后台登录",
+    "username": "用户名",
+    "password": "密码",
+    "loginBtn": "登录",
+    "dashboard": "仪表盘",
+    "newPost": "新建文章",
+    "edit": "编辑",
+    "delete": "删除",
+    "publish": "发布",
+    "draft": "草稿"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "noData": "暂无数据"
+  }
+}

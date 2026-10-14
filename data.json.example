@@ -1,0 +1,26 @@
+{
+  "users": [],
+  "posts": [],
+  "tags": [],
+  "post_tags": [],
+  "comments": [],
+  "likes": [],
+  "friends": [],
+  "chatter": [],
+  "projects": [],
+  "music": [],
+  "settings": [
+    {
+      "id": "site",
+      "avatar": "",
+      "name": "My Blog",
+      "bio": "",
+      "github": "",
+      "email": "",
+      "intro": "",
+      "hero_bg": "",
+      "qq": "",
+      "wechat": ""
+    }
+  ]
+}

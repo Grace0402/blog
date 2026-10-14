@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "timeline": "Timeline",
+    "tags": "Tags",
+    "friends": "Friends",
+    "chatter": "Chatter",
+    "about": "About"
+  },
+  "home": {
+    "search": "Search articles...",
+    "weather": "Weather",
+    "music": "Music",
+    "stats": "Stats",
+    "tags": "Tag Cloud",
+    "tagSearch": "Search tags...",
+    "latest": "Latest",
+    "calendar": "Calendar",
+    "danmaku": "Danmaku",
+    "totalPosts": "",
+    "totalDays": "Running",
+    "days": "d",
+    "articles": "articles"
+  },
+  "post": {
+    "prev": "Prev",
+    "next": "Next",
+    "comments": "Comments",
+    "like": "Like",
+    "liked": "Liked",
+    "comment_placeholder": "Write a comment...",
+    "name": "Name",
+    "email": "Email",
+    "submit": "Submit"
+  },
+  "admin": {
+    "login": "Admin Login",
+    "username": "Username",
+    "password": "Password",
+    "loginBtn": "Login",
+    "dashboard": "Dashboard",
+    "newPost": "New Post",
+    "edit": "Edit",
+    "delete": "Delete",
+    "publish": "Publish",
+    "draft": "Draft"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "noData": "No data"
+  }
+}

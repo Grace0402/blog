@@ -1,0 +1,25 @@
+# 依赖与构建产物
+node_modules/
+.next/
+
+# 环境密钥（含 JWT_SECRET，绝不提交）
+.env.local
+
+# 部署产物（大体积 tar 包）
+*.tar.gz
+
+# Codex 调试残留归档
+.codex-legacy/
+
+# 真实数据（含私有文章内容 + admin 密码哈希，绝不提交；结构见 data.json.example）
+data.json
+
+# 数据备份文件
+data.json.bak-*
+
+# 用户上传的图片/音频（运行时产生，不纳入模板）
+public/uploads/*
+!public/uploads/.gitkeep
+
+# 日志
+next-log.txt
